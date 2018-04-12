@@ -14,16 +14,6 @@
           </li>
           {% endif %}
           
-          {% if site.social.blogger %}
-          <!-- Blogger -->
-          <li class="navigation__item_social">
-            <a href="http://{{site.social.blogger}.blogspot.com}" title="@{{site.social.blogger}}" target="_blank">
-              <i class='social fa fa-blogger fa-2x'></i>
-              <span class="label">Blogger</span>
-            </a>
-          </li>
-          {% endif %}
-
           <!-- RSS -->
           <li class="navigation__item_social">
             <a href="/feed.xml" rel="author" title="RSS" target="_blank">
@@ -48,11 +38,8 @@
         </div>
 
         <div class = "footer_div">  
-            <iframe
-                style="margin-left: 2px; margin-bottom:-5px;"
-                frameborder="0" scrolling="0" width="91px" height="20px"
-                src="https://ghbtns.com/github-btn.html?user=leopardpan&repo=sunzcdev.github.io&type=star&count=true" >
-            </iframe>
+           <p class="copyright text-muted">
+            Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
             </p>
         	<div align="right">
     			<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
