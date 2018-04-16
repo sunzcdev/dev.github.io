@@ -1,7 +1,4 @@
 ---
-published: true
----
----
 layout: post
 title:  "Ble开发总结"
 date:   2018-04-16 17:48:37
